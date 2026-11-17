@@ -1,0 +1,1 @@
+{"openapi":"3.0.3","info":{"title":"Shop","version":"1"},"paths":{"/products":{"get":{"parameters":[],"responses":{"200":{"description":"Products","content":{"application/json":{"schema":{"$ref":"#/components/schemas/Product"}}}}}}}},"components":{"schemas":{"Product":{"type":"object","required":["id","price"],"properties":{"id":{"type":"string"},"price":{"type":"string"}}}}}}
